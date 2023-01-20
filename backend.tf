@@ -5,6 +5,6 @@ terraform {
     region = "us-east-1"
     access_key = ""
     secret_key = ""
-    #dynamodb_table = "s3-state-lock"
+    dynamodb_table = "s3-state-lock"
   }
 }
