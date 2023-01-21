@@ -3,8 +3,8 @@ terraform {
     bucket = "charlyo-mini"
     key    = "input"
     region = "us-east-1"
-    access_key = "AKIAY5NZHLQ6663RQPH6"
-    secret_key = "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"
+    access_key = "staging-user"
+    secret_key = "staging-pass secret"
     #dynamodb_table = "s3-state-lock"
   }
 }
